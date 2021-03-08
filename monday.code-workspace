@@ -1,0 +1,45 @@
+﻿{
+	"folders": [
+		{
+			"name": "✨ root",
+			"path": "."
+		},
+		{
+			"name": "⚡ nuxt-plugins ⚡",
+			"path": "packages\\nuxt-plugins"
+		},
+		{
+			"name": "📦 components 📦",
+			"path": "packages\\components"
+		},
+		{
+			"name": "🌊 cro-flow 🌊",
+			"path": "packages\\cro-flow"
+		},
+		{
+			"name": "🃏 priority-cards 🃏",
+			"path": "packages\\priority-cards"
+		}
+	],
+	"settings": {
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4,
+		"vetur.format.enable": false,
+		"vetur.validation.template": false,
+		"vetur.validation.style": false,
+		"vetur.grammar.customBlocks": {
+			"docs": "md",
+			"i18n": "json5"
+		},
+		"vetur.validation.script": false,
+		"editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+		"eslint.validate": ["vue", "html", "javascript"],
+		"i18n-ally.localesPaths": ["packages/**/src/**/*.vue", "packages/**/src/locales"],
+		"eslint.packageManager": "yarn",
+		"npm.packageManager": "yarn",
+		"files.exclude": {},
+		"i18n-ally.keystyle": "nested",
+		"i18n-ally.tabStyle": "tab",
+		"i18n-ally.enabledFrameworks": ["vue-sfc", "vue"]
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"name": "@spunkie/nuxt-plugins",
+	"main": "module.js",
+	"version": "2.0.1",
+	"scripts": {},
+	"dependencies": {
+		"fake-tag": "^2.0.0",
+		"monday-sdk-js": "^0.1.1",
+		"v-tooltip": "^2.0.3",
+		"vue-stripe-checkout": "^3.5.12",
+		"vuejs-datepicker": "^1.6.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Spunkie/junky_lerna_deps_example.git",
+		"directory": "packages/nuxt-plugins"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com",
+		"access": "restricted"
+	}
+}

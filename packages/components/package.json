@@ -1,0 +1,25 @@
+{
+	"name": "@spunkie/components",
+	"main": "module.js",
+	"version": "2.0.2",
+	"scripts": {},
+	"dependencies": {
+		"@nuxtjs/axios": "^5.12.2",
+		"fake-tag": "^2.0.0",
+		"hot-formula-parser": "^3.0.2",
+		"monday-sdk-js": "^0.1.1",
+		"timeago.js": "^4.0.2",
+		"v-tooltip": "^2.0.3",
+		"vue-multiselect": "2.1.6"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Spunkie/junky_lerna_deps_example.git",
+		"directory": "packages/components"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com",
+		"access": "restricted"
+	},
+	"gitHead": "6bb5cbf17de3648b94b93e8df1aaca0f295e779c"
+}

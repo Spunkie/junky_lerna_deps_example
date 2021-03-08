@@ -1,0 +1,27 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: '/'
+    schedule:
+        interval: daily
+    target-branch: "dev"
+  - package-ecosystem: npm
+    directory: '/packages/components'
+    schedule:
+        interval: daily
+    target-branch: "dev"
+  - package-ecosystem: npm
+    directory: '/packages/cro-flow'
+    schedule:
+        interval: daily
+    target-branch: "dev"
+  - package-ecosystem: npm
+    directory: '/packages/nuxt-plugins'
+    schedule:
+        interval: daily
+    target-branch: "dev"
+  - package-ecosystem: npm
+    directory: '/packages/priority-cards'
+    schedule:
+        interval: daily
+    target-branch: "dev"

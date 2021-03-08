@@ -1,0 +1,39 @@
+{
+	"version": "independent",
+	"packages": [
+		"packages/*"
+	],
+	"npmClient": "yarn",
+	"useWorkspaces": true,
+	"conventionalCommits": true,
+	"exact": true,
+	"command": {
+		"publish": {
+			"ignoreChanges": [
+				"*.md"
+			],
+			"message": "chore(release): publish"
+		}
+	},
+	"changelog": {
+		"labels": {
+			"breaking": "🚨 Breaking Changes",
+			"feat": "✨ Features",
+			"security": "🔒 Security",
+			"perf": "⚡️ Performance",
+			"performance": "⚡️ Performance",
+			"fix": "🐛 Bug Fixes",
+			"doc": "📚 Documentation",
+			"docs": "📚 Documentation",
+			"chore": "⚙️ Chore",
+			"chores": "⚙️ Chore",
+			"refactor": "♻️ Refactoring",
+			"test": "🚦 Test",
+			"style": "🎨 Style",
+			"deps": "📦 Build",
+			"build": "📦 Build",
+			"release": "🔖 Release",
+			"wip": "🚧 Wip"
+		}
+	}
+}

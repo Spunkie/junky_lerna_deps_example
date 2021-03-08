@@ -1,0 +1,24 @@
+{
+	"recommendations": [
+		"vscode-icons-team.vscode-icons",
+		"ms-vscode.notepadplusplus-keybindings",
+		"ayudh.lock-file-notifier",
+		"ms-vsliveshare.vsliveshare-pack",
+		"codezombiech.gitignore",
+		"eamodio.gitlens",
+		"editorconfig.editorconfig",
+		"formulahendry.auto-close-tag",
+		"dbaeumer.vscode-eslint",
+		"graphql.vscode-graphql",
+		"oderwat.indent-rainbow",
+		// "sdras.vue-vscode-extensionpack",
+		"coenraads.bracket-pair-colorizer-2",
+		"octref.vetur",
+		"sdras.vue-vscode-snippets",
+		"esbenp.prettier-vscode",
+		"tombonnike.vscode-status-bar-format-toggle",
+		"christian-kohler.npm-intellisense",
+		"xabikos.javascriptsnippets",
+		"folke.vscode-monorepo-workspace"
+	]
+}
