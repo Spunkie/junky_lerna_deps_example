@@ -1,27 +1,42 @@
 version: 2
+registries:
+  - npm-github-spunkie:
+    type: npm-registry
+    url: 'https://npm.pkg.github.com'
+    token: ${{secrets.GH_PAT}} # make sure to store this in your Dependabot secrets!
 updates:
   - package-ecosystem: npm
     directory: '/'
+    registries:
+      - 'npm-github-spunkie'
     schedule:
         interval: daily
     target-branch: "dev"
   - package-ecosystem: npm
     directory: '/packages/components'
+    registries:
+      - 'npm-github-spunkie'
     schedule:
         interval: daily
     target-branch: "dev"
   - package-ecosystem: npm
     directory: '/packages/cro-flow'
+    registries:
+      - 'npm-github-spunkie'
     schedule:
         interval: daily
     target-branch: "dev"
   - package-ecosystem: npm
     directory: '/packages/nuxt-plugins'
+    registries:
+      - 'npm-github-spunkie'
     schedule:
         interval: daily
     target-branch: "dev"
   - package-ecosystem: npm
     directory: '/packages/priority-cards'
+    registries:
+      - 'npm-github-spunkie'
     schedule:
         interval: daily
     target-branch: "dev"
